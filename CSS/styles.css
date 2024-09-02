@@ -96,7 +96,7 @@ section {
 .header .flex .navbar a {
   display: inline-block;
   padding: 1rem 0.5rem;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: var(--light-color);
   border-radius: 0.5rem;
   text-transform: capitalize;
@@ -123,7 +123,7 @@ section {
   margin-top: 1rem;
   padding: 1rem 3rem;
   cursor: pointer;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: white;
   background-color: var(--main-color);
   border-radius: 0.5rem;
@@ -523,7 +523,7 @@ section {
   border-radius: 0.5rem;
   font-size: 2rem;
   padding-left: 2rem;
-  height: 24vh;
+  height: 30vh;
 }
 
 .job-filter .flex {
@@ -549,15 +549,15 @@ section {
 .job-filter .flex .box .input {
   width: 90%;
   border-radius: 0.5rem;
-  padding: 1.4rem;
+  padding: 1.2rem;
   color: var(--black);
   margin: 2rem 1rem;
   background-color: var(--light-bg);
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .job-filter form .dropdown-container {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -572,8 +572,8 @@ section {
   width: 80%;
   background: var(--light-bg);
   border-radius: 0.5rem;
-  padding: 1.4rem;
-  font-size: 1.8rem;
+  padding: 1.2rem;
+  font-size: 1.4rem;
   color: var(--black);
   text-align: center;
   user-select: none;
@@ -598,9 +598,9 @@ section {
 }
 
 .job-filter form .dropdown-container .dropdown .lists .items {
-  padding: 1.2rem 1.4rem;
+  padding: 1rem 1.4rem;
   border-radius: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: var(--black);
 }
 
@@ -615,11 +615,307 @@ section {
   transform: scaleY(1);
 }
 
+.job-details .details {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  padding: 2rem;
+  margin: 0.5rem;
+}
 
+.job-details .details h3 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: var(--black);
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.job-details .details .job-info a {
+  display: block;
+  font-size: 1.6rem;
+  color: var(--main-color);
+  margin-left: 0.2rem;
+}
+
+.job-details .details .job-info a:hover {
+  text-decoration: underline;
+}
+
+.job-details .details .job-info p {
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  color: var(--light-color);
+}
+.job-details .details .job-info p i {
+  padding: 0.5rem;
+}
+
+.job-details .details .basic-details {
+  background-color: var(--light-bg);
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.job-details .details .basic-details p {
+  color: var(--light-color);
+  padding-bottom: 1.5rem;
+  font-size: 1.6rem;
+}
+.job-details .details ul {
+  margin: 1rem 0;
+}
+.job-details .details ul li {
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  color: var(--light-color);
+  margin-left: 3rem;
+}
+
+.job-details .details .description {
+  margin-top: 1.5rem;
+}
+
+.job-details .details .description p {
+  font-size: 1.6rem;
+  color: var(--light-color);
+  line-height: 1.8;
+  padding: 0.5rem 0;
+}
+
+.job-details .details .save {
+  background-color: var(--light-bg);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+.job-details .details .save:hover {
+  background-color: var(--black);
+}
+
+.job-details .details .save i {
+  margin-right: 0.5rem;
+  color: var(--black);
+}
+
+.job-details .details .save span {
+  color: var(--light-color);
+}
+
+.job-details .details .save:hover i {
+  color: var(--white);
+}
+
+.job-details .details .save:hover span {
+  color: var(--white);
+}
+
+.view-company .details {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  padding: 2rem;
+  margin: 0 10rem;
+}
+
+.view-company .details .info {
+  max-width: 30rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  background-color: var(--light-bg);
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.view-company .details .info img {
+  height: 15rem;
+  width: 15rem;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.view-company .details .info h3 {
+  padding: 1.5rem 0;
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.view-company .details .info p {
+  font-size: 1.6rem;
+  color: var(--light-color);
+}
+.view-company .details .description {
+  margin-top: 2rem;
+}
+.view-company .details .description h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+.view-company .details .description p {
+  padding: 0.5rem 0;
+  font-size: 1.6rem;
+  color: var(--light-color);
+  line-height: 1.4;
+}
+
+.view-company .details ul li {
+  margin-left: 3rem;
+  font-size: 1.6rem;
+  color: var(--light-color);
+  padding-top: 1.5rem;
+}
+
+.contact .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 2rem 5rem;
+}
+
+.contact .box-container .box {
+  background-color: var(--white);
+  border: var(--border);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  padding: 2rem;
+}
+
+.contact .box-container .box i {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  color: var(--white);
+  background-color: var(--black);
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.contact .box-container .box a {
+  display: block;
+  padding-top: 0.5rem;
+  font-size: 1.6rem;
+  color: var(--light-color);
+  line-height: 1.6;
+}
+
+.contact form {
+  margin-top: 2rem;
+  background-color: var(--white);
+  border: var(--border);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  padding: 2rem;
+}
+
+.contact form h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.contact form .flex {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+}
+.contact form .flex .box {
+  flex: 1 1 40rem;
+}
+.contact form .input {
+  width: 90%;
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+  color: var(--black);
+  font-size: 1.6rem;
+  background-color: var(--light-bg);
+  margin: 1rem 0;
+}
+
+.contact form p{
+  text-align: left;
+  font-size: 1.4rem;
+  padding-top: 1rem;
+  color: var(--light-color);
+  
+}
+
+.contact form p span{
+  color: var(--red);
+}
+
+.contact form textarea{
+  height: 15rem;
+  resize: none;
+  background-color: var(--light-bg);
+  width: 93%;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: .5rem;
+  margin-left: 2rem;
+}
+
+.account-form-container{
+  background: url(../assets/home-bg.png), rgba(0, 0, 0, 0.7) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+ background-blend-mode: color;
+}
+
+.account-form-container .account-form{
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.account-form-container .account-form form{
+  background-color: var(--white);
+  border-radius: .5rem;
+  padding:3rem 2rem;
+  text-align: center;
+  width: 30vw;
+}
+.account-form-container .account-form form h3{
+  font-size: 2.5rem;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.account-form-container .account-form form .input{
+  width: 90%;
+  margin: 1rem 0;
+  font-size: 1.4rem;
+  padding: 1.4rem;
+  background-color: var(--light-bg);
+  border-radius: .5rem;
+}
+.account-form-container .account-form form p{
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  color: var(--light-color);
+} 
+
+.account-form-container .account-form form p a{
+color: var(--main-color);
+}
+.account-form-container .account-form form p a:hover{
+  color: var(--black);
+  text-decoration: underline;
+}
 
 
 /* Media Queries */
-
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -630,6 +926,15 @@ section {
   }
 }
 
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .section-title {
+    font-size: 3.5rem; /* Adjusted for smaller screens */
+  }
+}
+
 @media (max-width: 450px) {
   html {
     font-size: 50%;
@@ -637,11 +942,9 @@ section {
   .section-title {
     font-size: 3rem;
   }
-
   #menu-btn {
     display: inline-block;
   }
-
   .header .flex .navbar {
     position: absolute;
     top: 99%;
@@ -651,9 +954,8 @@ section {
     background-color: var(--white);
     padding: 1rem 0.5rem;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    transform: 0.2s linear;
+    transition: transform 0.2s linear; /* Changed to transition for smooth effect */
   }
-
   .header .flex .navbar.active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
@@ -662,16 +964,10 @@ section {
     padding: 1.5rem 2rem;
   }
   .category .box-container {
-    grid-template-columns: repeat(auto-fit, 16rem);
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); /* Adjusted for responsiveness */
   }
   .category .box-container .box {
-    flex-flow: column;
+    flex-direction: column;
     text-align: center;
-  }
-}
-
-@media (max-width: 768px) {
-  html {
-    font-size: 55%;
   }
 }
